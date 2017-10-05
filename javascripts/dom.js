@@ -14,7 +14,7 @@ const buildDomString = (wowCats) => {
 	catString +=		`<p> Color: ${wowCats[i].color} </p>`;
 	catString +=		`<p> Skills: ${wowCats[i].specialSkill} </p>`;
 	if (wowCats[i].numberOfToes <= 10) {
-		catString +=	`<p class="disabled-cat"> Toes: ${wowCats[i].numberOfToes}> </p>`;
+		catString +=	`<p class="disabled-cat"> Toes: ${wowCats[i].numberOfToes} </p>`;
 	} else {
 		catString += 	`<p> Toes: ${wowCats[i].numberOfToes} </p>`;
 	}

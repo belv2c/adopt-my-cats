@@ -2,6 +2,7 @@
 
 let cats = require('./cats');
 
+
 $('#inputText').keypress((event) => {
 	if(event.key === 'Enter'){
 		//gets the number of cats from input
@@ -9,7 +10,7 @@ $('#inputText').keypress((event) => {
 		console.log("cats from enter key", amountOfCats);
 		//triggers api
 		cats.loadCats(amountOfCats);
-
+		hideMeOkay();
 	}
 });
 
@@ -19,6 +20,11 @@ $('#catButton').click((event) => {
 	console.log("cats from button", amountOfCats);
 	//triggers api
 	cats.loadCats(amountOfCats);
+	hideMeOkay();
 });
+
+const hideMeOkay = () => {
+	$("#catButton, #kittyInput").addClass("hidden");
+};
 
 module.exports = {};
