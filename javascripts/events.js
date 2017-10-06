@@ -33,7 +33,7 @@ const hideMeOkay = () => {
 };
 
 const hideTheWeirdOnes = () => {
-	$("#disabledCatButton").parent().parent().addClass("hidden");
+	$(".disabled-cat").parent().parent().addClass("hidden");
 };
 
 module.exports = {};
