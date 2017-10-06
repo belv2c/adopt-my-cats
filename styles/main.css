@@ -1,0 +1,12 @@
+body {
+	background-color: lightgreen;
+}
+
+#inputText {
+	width: 257px;
+	margin-right: 27px;
+}
+
+img {
+	border-radius: 6px;
+}
