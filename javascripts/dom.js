@@ -5,7 +5,7 @@ const buildDomString = (wowCats) => {
 	for (var i = 0; i < wowCats.length; i++){
 	let catString = "";
 
-	catString +=  `<div class="cat-card col-md-3">`;
+	catString +=  `<div class="cat-card col-md-4">`;
 	catString +=	`<div class="image-container">`;
 	catString +=		`<img src="${wowCats[i].imageUrl}">`;
 	catString +=	`</div>`;
