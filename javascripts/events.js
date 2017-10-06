@@ -23,8 +23,17 @@ $('#catButton').click((event) => {
 	hideMeOkay();
 });
 
+$("#disabledCatButton").click((event) => {
+	hideTheWeirdOnes();
+});
+
 const hideMeOkay = () => {
 	$("#catButton, #kittyInput").addClass("hidden");
+	$("#disabledCatButton").removeClass("hidden");
+};
+
+const hideTheWeirdOnes = () => {
+	$("#disabledCatButton").parent().parent().addClass("hidden");
 };
 
 module.exports = {};

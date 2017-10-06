@@ -7,18 +7,26 @@
 </head>
 <body>
 
-<div class="row" id="kittyInput">
-	<div class="col-md-6">
-		<div class="input-elements">
-			<input type="text" class="form-control" id="inputText" placeholder="How many cats do you have?">
-			<span class="input-group-btn">
-				<button class="btn btn-default" id="catButton" type="button">Show me the cats!!!</button>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Meow</a>
+    </div>
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          <input type="number" class="form-control" id="inputText" placeholder="How many cats do you have?">
+        </div>
+        <button class="btn btn-default" id="catButton" type="button">Show me the cats!!!</button>
+        <button class="btn btn-default hidden" id="disabledCatButton" type="button">Get Rid Of The Disabled Ones</button>
+      </form>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-				<button class="btn btn-default hidden" id="disabledCatButton" type="button">Get Rid Of The Disabled Ones</button>
-			</span>
-		</div>
-	</div>
-</div>
+
 
 <div class="row container-fluid" id="catContainer"></div>
 
