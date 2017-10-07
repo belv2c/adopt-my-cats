@@ -1,5 +1,7 @@
 ### Adopt My Cats
 
+![Demo](https://user-images.githubusercontent.com/30091921/31305617-a1098682-ab03-11e7-9c7e-fe6905e1ef03.gif)
+
 - On page load, I should see an input box and a button.
 - The input box should prompt me to enter the number of cats I currently have on my site
 - I should be able to either click the enter key in the input field or the button on the page to submit my number of cats I have
